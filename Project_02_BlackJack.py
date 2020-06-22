@@ -227,6 +227,7 @@ while True:
     print(f"\nPlayer's balance is {player_chips.balance}")
 
     # Check the final balance is more than 0 and then ask for replay.
+
     if player_chips.balance != 0:
         new_game = input("\nWould you like to play again? Enter y/n: ")
         if new_game[0].lower() == 'y':
